@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f7ff;
+}
+
+.app {
+  min-height: 100vh;
+  transition: 0.3s;
+}
+
+.dark {
+  background: #121212;
+  color: white;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #5a67d8, #667eea);
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.toolbar-buttons button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.container {
+  padding: 30px;
+}
+
+.users-box {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.dark .users-box {
+  background: #1f1f1f;
+}
+
+.editor {
+  width: 100%;
+  height: 70vh;
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 18px;
+  resize: none;
+  outline: none;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.dark .editor {
+  background: #1e1e1e;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .toolbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .editor {
+    height: 60vh;
+  }
+}
