@@ -1,3 +1,54 @@
+COMPANY : CODTECH IT SOLUTIONS
+
+NAME :PREMA
+
+INTERNID : CTIS8833
+
+DOAMIN : FULL STACK WEB DEVELOPMENT
+
+DURATION : 4 WEEKS
+
+MENTOR : VISHALI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
