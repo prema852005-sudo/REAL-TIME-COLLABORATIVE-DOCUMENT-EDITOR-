@@ -10,6 +10,10 @@ DURATION : 4 WEEKS
 
 MENTOR : VISHALI
 
+OUTPUT
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/94dd7497-185d-40fb-b611-94f825c1b0ec" />
+
+
 
 
 
